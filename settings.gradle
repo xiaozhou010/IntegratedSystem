@@ -1,0 +1,5 @@
+rootProject.name = 'IntegratedSystem'
+include 'Abstract'
+include 'SystemSet'
+include 'Shared'
+
