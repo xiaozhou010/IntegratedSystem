@@ -18,7 +18,10 @@ public class Messge implements Serializable{
     private String mgs;
     private int number;
 
-    public Messge(int id, String mgs,int number) {
+    public Messge() {
+    }
+
+    public Messge(int id, String mgs, int number) {
         this.id = id;
         this.mgs = mgs;
         this.number = number;

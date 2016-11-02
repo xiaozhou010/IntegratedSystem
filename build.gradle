@@ -34,6 +34,7 @@ dependencies {
     compile project(":Abstract")
     compile project(":SystemSet")
     compile project(":Shared")
+    compile project(":Poxy")
     testCompile group: 'junit', name: 'junit', version: '4.11'
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
